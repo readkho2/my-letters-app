@@ -1,0 +1,35 @@
+<!-- editor.component.html -->
+<h2>
+    <a routerLink="/">Back to Overview</a> | Letter | <button (click)="saveLetter()">Save</button>
+  </h2>
+  <form>
+    <div>
+      <label for="senderName">Sender's Name:</label>
+      <input type="text" id="senderName" name="senderName" />
+    </div>
+    <div>
+      <label for="senderAddress">Sender's Address:</label>
+      <input type="text" id="senderAddress" name="senderAddress" />
+    </div>
+    <div>
+      <label for="receiverName">Receiver's Name:</label>
+      <input type="text" id="receiverName" name="receiverName" />
+    </div>
+    <div>
+      <label for="receiverAddress">Receiver's Address:</label>
+      <input type="text" id="receiverAddress" name="receiverAddress" />
+    </div>
+    <div>
+      <label for="date">Date of Dispatch:</label>
+      <input type="date" id="date" name="date" />
+    </div>
+    <div>
+      <label for="letterTitle">Letter Title:</label>
+      <input type="text" id="letterTitle" name="letterTitle" />
+    </div>
+    <div>
+      <label for="letterBody">Letter Body:</label>
+      <textarea id="letterBody" name="letterBody"></textarea>
+    </div>
+  </form>
+  

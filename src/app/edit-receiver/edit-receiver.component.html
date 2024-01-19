@@ -1,0 +1,29 @@
+<!-- edit-receiver.component.html -->
+<h2>Edit Receiver</h2>
+<button routerLink="/editor">Back</button>
+<form>
+  <div>
+    <label for="receiverName">Receiver's Name:</label>
+    <input type="text" id="receiverName" name="receiverName" />
+  </div>
+  <div>
+    <label for="receiverAddress">Receiver's Address:</label>
+    <input type="text" id="receiverAddress" name="receiverAddress" />
+  </div>
+  <!-- Ajoutez les autres champs que vous souhaitez éditer -->
+  <div>
+    <label for="additionalInfo1">Additional Info 1:</label>
+    <input type="text" id="additionalInfo1" name="additionalInfo1" />
+  </div>
+  <div>
+    <label for="additionalInfo2">Additional Info 2:</label>
+    <input type="text" id="additionalInfo2" name="additionalInfo2" />
+  </div>
+  <div>
+    <label for="additionalInfo3">Additional Info 3:</label>
+    <input type="text" id="additionalInfo3" name="additionalInfo3" />
+  </div>
+</form>
+<button (click)="addLine()">Add</button>
+<button (click)="cancel()">Cancel</button>
+<button (click)="applyChanges()">Apply Changes</button>

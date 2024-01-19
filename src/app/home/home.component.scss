@@ -1,0 +1,22 @@
+// home.component.scss
+
+.home-container {
+    padding: 20px;
+  }
+  
+  .letter-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .letter-item {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .add-letter-btn {
+    margin-top: 20px;
+  }
+  
